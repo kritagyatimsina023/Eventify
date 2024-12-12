@@ -1,0 +1,30 @@
+.nav_comp:hover {
+  transition: transform 0.8s ease-in-out, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  transition: all 1s ease-in-out;
+  transform: scale(1.2);
+  border-radius: 16px;
+  padding: 5px;
+  /* background-color: rgba(110, 2, 132, 0.592); */
+  box-shadow: 4px 4px 12px rgb(75, 1, 75);
+  backdrop-filter: blur(10px);
+}
+.nav_1:hover {
+  box-shadow: 2px 2px 6px rgb(0, 245, 159);
+}
+
+.nav_2:hover {
+  box-shadow: 2px 2px 6px rgb(254, 145, 1);
+  /* border: 1px solid white; */
+}
+.nav_3:hover {
+  box-shadow: 2px 2px 6px rgb(121, 1, 177);
+}
+.nav_4:hover {
+  box-shadow: 2px 2px 6px rgb(190, 243, 0);
+}
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  #nav {
+    gap: 20px;
+  }
+}

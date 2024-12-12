@@ -1,0 +1,55 @@
+#dives {
+  /* border: 2px solid white; */
+  box-shadow: 2px 2px 6px rgb(251, 4, 119);
+}
+#dives input {
+  /* border: 1px solid white; */
+  margin: 15px 20px;
+  padding: 15px 20px;
+  outline: none;
+
+  width: 40%;
+  background-color: transparent;
+}
+#inputs {
+  border: none;
+  box-shadow: 2px 2px 6px rgb(11, 242, 119);
+  background-color: transparent;
+  margin: 15px 20px;
+  padding: 15px 20px;
+}
+
+#dives span {
+  margin: 15px 20px;
+  font-size: 20px;
+}
+#form textarea {
+  background-color: transparent;
+  box-shadow: 2px 2px 8px rgb(114, 240, 4);
+  margin: 15px 20px;
+  height: 300px;
+  width: 40%;
+  padding: 20px;
+  /* border: 2px solid white; */
+  outline: none;
+}
+#select {
+  margin: 15px 20px;
+  background-color: transparent;
+  color: white;
+  box-shadow: 2px 2px 8px rgb(114, 240, 4);
+  outline: none;
+  padding: 10px;
+}
+.buttons_1 {
+  padding: 10px;
+  box-shadow: 2px 2px 8px rgb(244, 4, 160);
+  border-radius: 15px;
+}
+.btns_3 {
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px rgb(4, 253, 216);
+  margin-left: 20px;
+  margin-top: 20px;
+}

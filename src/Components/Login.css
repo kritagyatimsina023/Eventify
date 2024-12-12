@@ -1,0 +1,66 @@
+#portal {
+  width: 20%;
+  background-color: rgba(83, 80, 80, 0.195);
+  height: 100vh;
+}
+#links:hover {
+  transition: all ease-in-out 0.8s;
+  box-shadow: 2px 2px 6px rgb(205, 134, 1);
+}
+#links {
+  width: fit-content;
+  border-radius: 15px;
+  padding: 3px;
+}
+#btn {
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 9px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-bottom: 80px;
+  margin-right: 20px;
+}
+#btn:hover {
+  transition: all ease-in 0.6s;
+  border: none;
+  box-shadow: 3px 3px 10px rgb(237, 2, 112);
+}
+#btn:active {
+  transition: all ease-in-out 0.8s;
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 768px) {
+  #portal {
+    width: 95%;
+    padding: 15px;
+  }
+
+  #links {
+    font-size: 0.9rem;
+  }
+
+  #btn {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #portal {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #links {
+    font-size: 0.8rem;
+  }
+
+  #btn {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+}

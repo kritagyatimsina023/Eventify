@@ -1,0 +1,132 @@
+/* General container styling for responsiveness */
+.dividing {
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px white;
+  background-color: transparent;
+  color: rgb(254, 253, 253);
+  height: auto; /* Adjust for content height */
+  width: 80%;
+  max-width: 400px; /* Limit max width for large screens */
+  padding: 20px; /* Add padding for smaller screens */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all ease-in 0.3s;
+}
+
+/* Hover effects */
+#divising.Hover,
+#divising_1.Hover {
+  box-shadow: 2px 2px 6px rgb(3, 244, 252);
+}
+
+/* Specific adjustments for Register */
+#divising_1 {
+  margin-top: 50px;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Headings */
+.headings {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Input fields */
+.inputs {
+  background-color: transparent;
+  box-shadow: 2px 2px 8px white;
+  color: rgb(239, 238, 238);
+  border-radius: 15px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+.inputs:hover {
+  box-shadow: 2px 2px 6px rgb(3, 252, 160);
+}
+
+/* Button styling */
+.btn {
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 2px 2px 8px white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: all ease-in 0.3s;
+  margin-top: 10px;
+  width: 100%;
+}
+.btn:hover {
+  box-shadow: 2px 2px 6px rgb(3, 252, 160);
+}
+
+/* Links */
+.linking {
+  text-decoration: underline;
+  color: rgb(24, 120, 236);
+  font-size: 0.9rem;
+}
+
+/* Flexbox adjustments for form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 15px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .dividing {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .inputs {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .headings {
+    font-size: 1.3rem;
+  }
+
+  .linking {
+    font-size: 0.8rem;
+  }
+}
+
+/* Responsive adjustments for very small screens */
+@media screen and (max-width: 480px) {
+  .dividing {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .inputs {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  .headings {
+    font-size: 1.2rem;
+  }
+
+  .linking {
+    font-size: 0.7rem;
+  }
+}
